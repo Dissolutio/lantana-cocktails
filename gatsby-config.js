@@ -26,8 +26,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `M&E Cocktail Recipes`,
+        short_name: `cocktails`,
         start_url: `/`,
         background_color: `#4F3D4D`,
         theme_color: `#4F3D4D`,
