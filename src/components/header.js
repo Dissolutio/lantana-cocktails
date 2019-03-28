@@ -2,12 +2,12 @@ import PropTypes from "prop-types"
 import React from "react"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import "../scss/header.scss"
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header id="header">
     <div className="header-container">
       <h1>
-        <AniLink paintDrip hex="#61a6a1" to="/">
-          {siteTitle}
+        <AniLink cover direction="left" to="/">
+          Moviehouse Cocktails
         </AniLink>
       </h1>
     </div>

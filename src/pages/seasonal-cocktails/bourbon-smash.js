@@ -4,7 +4,7 @@ import SEO from "../../components/seo"
 
 const BourbonSmash = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Bourbon Smash" keywords={[`gatsby`, `application`, `react`]} />
     <h1>Bourbon Smash</h1>
 
     <h2>Shake and strain into 9oz bucket glass over ice.</h2>

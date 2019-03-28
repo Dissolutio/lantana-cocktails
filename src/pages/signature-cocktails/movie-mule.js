@@ -4,7 +4,7 @@ import SEO from "../../components/seo"
 
 const MovieMule = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Movie Mule" keywords={[`gatsby`, `application`, `react`]} />
     <h1>Movie Mule</h1>
     <hr />
     <h2>Shake and strain into 9 oz glass with ice, top with club soda.</h2>

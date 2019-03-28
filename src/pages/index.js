@@ -80,6 +80,16 @@ const IndexPage = () => (
           Yuzu Mojito (Seasonal)
         </AniLink>
       </li>
+      <li>
+        <AniLink
+          cover
+          direction="left"
+          bg={`url(${bgCover}) center / cover`}
+          to="/mixed-drinks/colorado-bulldog"
+        >
+          Colorado Bulldog
+        </AniLink>
+      </li>
 
       <h2>Shake and Pour</h2>
       <li>
@@ -162,6 +172,48 @@ const IndexPage = () => (
           to="/seasonal-cocktails/peachy-keen"
         >
           Peachy Keen (Seasonal)
+        </AniLink>
+      </li>
+      <li>
+        <AniLink
+          cover
+          direction="left"
+          bg={`url(${bgCover}) center / cover`}
+          to="/mixed-drinks/amaretto-sour"
+        >
+          Amaretto Sour
+        </AniLink>
+      </li>
+      <li>
+        <AniLink
+          cover
+          direction="left"
+          bg={`url(${bgCover}) center / cover`}
+          to="/mixed-drinks/cosmopolitan"
+        >
+          Cosmopolitan
+        </AniLink>
+      </li>
+      <li>
+        <AniLink
+          cover
+          direction="left"
+          bg={`url(${bgCover}) center / cover`}
+          to="/mixed-drinks/french-75"
+        >
+          French 75
+        </AniLink>
+      </li>
+
+      <h2>Stir and Strain</h2>
+      <li>
+        <AniLink
+          cover
+          direction="left"
+          bg={`url(${bgCover}) center / cover`}
+          to="/mixed-drinks/gimlet"
+        >
+          Gimlet
         </AniLink>
       </li>
     </ul>

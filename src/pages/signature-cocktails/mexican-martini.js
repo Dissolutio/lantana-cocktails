@@ -4,7 +4,10 @@ import SEO from "../../components/seo"
 
 const MoviehouseMexicanMartini = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO
+      title="Mexican Martini"
+      keywords={[`gatsby`, `application`, `react`]}
+    />
     <h1>Mexican Martini</h1>
     <hr />
     <h2>Shake and strain into 9 oz salt rimmed glass.</h2>

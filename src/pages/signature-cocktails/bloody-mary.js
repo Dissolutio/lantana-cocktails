@@ -4,7 +4,7 @@ import SEO from "../../components/seo"
 
 const BloodyMary = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Bloody Mary" keywords={[`gatsby`, `application`, `react`]} />
     <h1>Bloody Mary</h1>
     <hr />
     <h2>Build over ice in salted pint glass.</h2>
@@ -21,10 +21,8 @@ const BloodyMary = () => (
     <ul>
       <h3>Ingredients</h3>
       <li>1.25 oz Vodka (Dripping Springs)</li>
+      <li>IF CUSTOMER REQUESTS "SPICY": 3 dashes Tobasco</li>
       <li>8 oz Bloody Mary Mix</li>
-      <li>.25 oz (splash) Lime Juice</li>
-      <li>&lt; .25 oz splash Orange Juice</li>
-      <li>2+ oz Sweet & Sour</li>
       <li>Lime wedge, celery stalk, 2 martini olives. (garnish)</li>
     </ul>
   </Layout>

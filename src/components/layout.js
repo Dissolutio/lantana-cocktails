@@ -24,7 +24,7 @@ const NavBackArrow = props => (
 const Layout = ({ isHomepage, children }) => {
   return (
     <>
-      <Header siteTitle="Cocktails" />
+      <Header />
       <div id="pagewrap">
         <NavBackArrow />
         <main>{children}</main>
