@@ -26,7 +26,7 @@ const CucumberStrawberryMojito = () => (
     </ol>
     <ul>
       <h3>Ingredients</h3>
-      <li> ~ 6 medium Mint Leaves</li>
+      <li>~ 6 medium Mint Leaves</li>
       <li>.5 oz Simple Syrup</li>
       <li>3 slices Strawberry</li>
       <li>.5 oz Lime Juice</li>

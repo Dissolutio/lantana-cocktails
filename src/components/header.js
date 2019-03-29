@@ -6,7 +6,7 @@ const Header = () => (
   <header id="header">
     <div className="header-container">
       <h1>
-        <AniLink cover direction="left" to="/">
+        <AniLink cover direction="right" to="/">
           Moviehouse Cocktails
         </AniLink>
       </h1>

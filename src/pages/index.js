@@ -1,12 +1,12 @@
 import React from "react"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
-import Layout from "../components/layout"
+import HomepageLayout from "../components/homepageLayout"
 import SEO from "../components/seo"
 import bgCover from "../assets/cocktails-min.jpg"
 
 const IndexPage = () => (
-  <Layout bgCover={bgCover}>
+  <HomepageLayout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <ul>
       <h2>Build in Glass</h2>
@@ -90,6 +90,46 @@ const IndexPage = () => (
           Colorado Bulldog
         </AniLink>
       </li>
+      <li>
+        <AniLink
+          cover
+          direction="left"
+          bg={`url(${bgCover}) center / cover`}
+          to="/mixed-drinks/white-russian"
+        >
+          White Russian
+        </AniLink>
+      </li>
+      <li>
+        <AniLink
+          cover
+          direction="left"
+          bg={`url(${bgCover}) center / cover`}
+          to="/mixed-drinks/mai-tai"
+        >
+          Mai Tai
+        </AniLink>
+      </li>
+      <li>
+        <AniLink
+          cover
+          direction="left"
+          bg={`url(${bgCover}) center / cover`}
+          to="/mixed-drinks/lifesaver"
+        >
+          Lifesaver
+        </AniLink>
+      </li>
+      <li>
+        <AniLink
+          cover
+          direction="left"
+          bg={`url(${bgCover}) center / cover`}
+          to="/mixed-drinks/irish-coffee"
+        >
+          Irish Coffee
+        </AniLink>
+      </li>
 
       <h2>Shake and Pour</h2>
       <li>
@@ -110,6 +150,16 @@ const IndexPage = () => (
           to="/signature-cocktails/cucumber-strawberry-mojito"
         >
           Cucumber Strawberry Mojito
+        </AniLink>
+      </li>
+      <li>
+        <AniLink
+          cover
+          direction="left"
+          bg={`url(${bgCover}) center / cover`}
+          to="/mixed-drinks/mojito"
+        >
+          Mojito
         </AniLink>
       </li>
 
@@ -179,6 +229,16 @@ const IndexPage = () => (
           cover
           direction="left"
           bg={`url(${bgCover}) center / cover`}
+          to="/mixed-drinks/skinny-margarita"
+        >
+          Skinny Margarita
+        </AniLink>
+      </li>
+      <li>
+        <AniLink
+          cover
+          direction="left"
+          bg={`url(${bgCover}) center / cover`}
           to="/mixed-drinks/amaretto-sour"
         >
           Amaretto Sour
@@ -204,6 +264,26 @@ const IndexPage = () => (
           French 75
         </AniLink>
       </li>
+      <li>
+        <AniLink
+          cover
+          direction="left"
+          bg={`url(${bgCover}) center / cover`}
+          to="/mixed-drinks/martini"
+        >
+          Martini
+        </AniLink>
+      </li>
+      <li>
+        <AniLink
+          cover
+          direction="left"
+          bg={`url(${bgCover}) center / cover`}
+          to="/mixed-drinks/long-island-iced-tea"
+        >
+          Long Island Iced Tea
+        </AniLink>
+      </li>
 
       <h2>Stir and Strain</h2>
       <li>
@@ -216,8 +296,18 @@ const IndexPage = () => (
           Gimlet
         </AniLink>
       </li>
+      <li>
+        <AniLink
+          cover
+          direction="left"
+          bg={`url(${bgCover}) center / cover`}
+          to="/mixed-drinks/manhattan"
+        >
+          Manhattan
+        </AniLink>
+      </li>
     </ul>
-  </Layout>
+  </HomepageLayout>
 )
 
 export default IndexPage

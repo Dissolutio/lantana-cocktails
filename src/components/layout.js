@@ -7,19 +7,9 @@ import Header from "./header"
 import "../scss/layout.scss"
 
 const NavBackArrow = props => (
-  <Location>
-    {({ location }) => {
-      if (location.pathname === "/") {
-        return null
-      } else {
-        return (
-          <AniLink to="/" fade className="backArrow">
-            &#x21d0;
-          </AniLink>
-        )
-      }
-    }}
-  </Location>
+  <AniLink className="backArrow" to="/" cover direction="right" bg="#4f3d4d">
+    &#x21d0;
+  </AniLink>
 )
 const Layout = ({ isHomepage, children }) => {
   return (
