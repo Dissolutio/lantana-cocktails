@@ -20,7 +20,7 @@ const PeachyKeen = () => (
     <ul>
       <h3>Ingredients</h3>
       <li>2 oz Tito's Vodka</li>
-      <li>1.75 oz Peach Puree</li>
+      <li>.25 oz Peach Puree</li>
       <li>1.5 oz Sweet & Sour</li>
       <li>1 oz Cranberry Juice</li>
       <li>Mint sprig & Lime wedge (garnish)</li>
